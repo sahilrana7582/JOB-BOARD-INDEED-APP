@@ -46,3 +46,11 @@ Follow the steps below to get the project up and running locally:
 
 ```bash
 git clone https://github.com/your-username/job-board-application.git
+
+### 2. Install
+````bash
+npm install
+
+
+
+
