@@ -38,18 +38,7 @@ A modern **Job Board** web application where **candidates** can apply for jobs a
   - **MongoDB** 🗃️ (for database management)
   - **JavaScript** 📝
 
-## Installation ⚡
 
-Follow the steps below to get the project up and running locally:
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/job-board-application.git
-
-### 2. Install
-````bash
-npm install
 
 
 
