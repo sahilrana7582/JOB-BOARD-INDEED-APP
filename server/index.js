@@ -12,7 +12,13 @@ const app = express();
 
 app.use(
   cors({
-    origin: ['http://localhost:5173', 'http://127.0.0.1'],
+    origin: [
+      'http://localhost:5173',
+      'http://127.0.0.1',
+      'https://job-board-indeed-app.vercel.app',
+      'https://job-board-indeed-app-git-main-sahilrana27582s-projects.vercel.app',
+      'https://job-board-indeed-app-sahilrana27582s-projects.vercel.app',
+    ],
     credentials: true,
   })
 );
