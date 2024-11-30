@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import { userLogin, userLogout } from '../slices/userSlice';
 
-const URL = 'http://localhost:8080/api/user';
+const URL = 'https://job-board-indeed-app.onrender.com/api/user';
 export const authApiSlice = createApi({
   reducerPath: 'Auth',
   baseQuery: fetchBaseQuery({

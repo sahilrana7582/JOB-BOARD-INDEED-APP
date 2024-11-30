@@ -135,9 +135,11 @@ const ApplicationDetails = ({ job, isLoading, refetch }) => {
                   <div className="flex gap-4">
                     <p className="text-sm text-muted-foreground">
                       Posted:{' '}
-                      {formatDistanceToNow(new Date(job?.timePosted), {
-                        addSuffix: true,
-                      })}
+                      {job?.timePosted
+                        ? formatDistanceToNow(new Date(job.timePosted), {
+                            addSuffix: true,
+                          })
+                        : 'Date not available'}
                     </p>
                     <p className="text-sm text-muted-foreground">
                       Openings: {job?.openings}

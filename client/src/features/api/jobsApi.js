@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-const URL = 'http://localhost:8080/api/job';
+const URL = 'https://job-board-indeed-app.onrender.com/api/job';
 export const apiQuery = createApi({
   reducerPath: 'Jobs',
   baseQuery: fetchBaseQuery({
