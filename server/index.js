@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 const dbConnect = require('./database/dbConnect');
 const userRouter = require('./routes/userRoutes');
 const cors = require('cors');
-const morgan = require('morgan');
+// const morgan = require('morgan');
 const cookieparser = require('cookie-parser');
 const jobRouter = require('./routes/jobRoutes');
 dotenv.config();
@@ -18,7 +18,7 @@ app.use(
 );
 app.use(cookieparser());
 app.use(express.json());
-app.use(morgan('dev'));
+// app.use(morgan('dev'));
 
 const PORT = process.env.PORT;
 dbConnect();
