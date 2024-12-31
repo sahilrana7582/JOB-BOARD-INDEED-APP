@@ -10,6 +10,7 @@ import Profile from './pages/candidate/Profile';
 import Applications from './pages/Applications';
 import ProfileView from './pages/candidate/ProfileView';
 import UserActivity from './pages/candidate/UserActivity';
+import Prac from './components/Prac';
 
 const appRouter = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const appRouter = createBrowserRouter([
       {
         path: 'userActivity/:userId',
         element: <UserActivity />,
+      },
+      {
+        path: 'p',
+        element: <Prac />,
       },
       {
         path: 'profile',
